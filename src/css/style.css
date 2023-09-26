@@ -15,18 +15,12 @@
 
   img {
     display: block;
-   width: 100%;
+   /* width: 100%; */
     border: 1px solid #0d161b;
 }
 
 
  
-.breed-select {
-   
-   width: 400px;
-   margin: auto;
-    margin-top: 20px;
-}
 
 
 .loader {
@@ -69,7 +63,13 @@
         transform: rotate(360deg);
     }
     } 
-
+    .breed-select {
+   
+      width: 400px;
+      margin: auto;
+       margin-top: 20px;
+   }
+   
   
 .cat-info {
      display: flex;
