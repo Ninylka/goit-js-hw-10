@@ -32,10 +32,9 @@
     display: inline-block;
     animation: rotation 1s linear infinite;
     position: absolute;
-    left: 80%;
+   left: auto;
     top: 0;
-    transform: translate(-50%, -50%);
-    background-color:  #ffff00;
+       background-color:  #ffff00;
 
     }
   .loader-hidden{
@@ -64,13 +63,25 @@
     }
     } 
     .breed-select {
-   
-      width: 400px;
+    
+      
+      max-width: 400px;
       margin: auto;
        margin-top: 20px;
+       font-size: 18px;
+       color: #60666d;
    }
    
   
+   body {
+    
+    background-image: linear-gradient(135deg, #edf1ab 0%, #c3cfe2 100%);
+    
+  }
+ 
+
+
+
 .cat-info {
      display: flex;
     align-items: center;
